@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6] - 2026-11-8
+### Changed
+- new `fixedHorizontalScrollbarSize`&`fixedVerticalScrollbarSize`
+- Support uGUI 2.6.0, thanks to @koichiyamashita
+- Fix slow nudging under low speed, thanks to @Mabinogi-Cichol
+- Invalidate content spacing&constraint in `RefreshCells`
+
 ## [1.1.5] - 2026-01-17
 ### Changed
 - new `GetItemsSize` interface to support infinity scroll
